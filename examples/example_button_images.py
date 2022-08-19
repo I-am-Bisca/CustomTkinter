@@ -35,7 +35,7 @@ class App(customtkinter.CTk):
         self.button_1.grid(row=1, column=0, columnspan=2, padx=20, pady=(20, 10), sticky="ew")
 
         self.button_2 = customtkinter.CTkButton(master=self.frame_1, image=self.add_list_image, text="Add Item", height=32,
-                                                compound="right", fg_color="#D35B58", hover_color="#C77C78",
+                                                compound="right", fg_color="#3c03ad", hover_color="#C77C78",
                                                 command=self.button_function)
         self.button_2.grid(row=2, column=0, columnspan=2, padx=20, pady=10, sticky="ew")
 
